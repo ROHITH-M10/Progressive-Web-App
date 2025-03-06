@@ -1,0 +1,17 @@
+{
+    "name": "Random Password Generator",
+    "short_name": "RPG",
+    "start_url": "./index.html",
+    "description": "A simple random password generator",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "purpose": "any"
+}

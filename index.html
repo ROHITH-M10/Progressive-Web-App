@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="line-one">
+            Generate a 
+        </div>
+    
+        <div class="line-two">
+            Random Password
+        </div>
+    
+        <div class="line-three">
+            <input type="text" class="random-password" name="password-name" disabled>
+            <i class="fa fa-copy" onclick="copyPassword()"></i>
+        </div>
+    
+        <div class="line-four"></div>
+        
+            <button class="generate-password" onclick="generateRandomPassword()"><i class="fa fa-magic"></i> Generate Password</button>
+        </div>
+    </div>
+
+</body>
+</html>
